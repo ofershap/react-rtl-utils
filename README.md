@@ -6,6 +6,10 @@
 
 > React utilities for RTL layouts — hooks and components for bidirectional text, RTL-aware positioning, and direction detection. Useful for Hebrew, Arabic, Persian, and Urdu apps.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="react-rtl-utils demo" width="600" />
+</p>
+
 ## Install
 
 ```bash
