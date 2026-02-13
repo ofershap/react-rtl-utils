@@ -1,10 +1,22 @@
 # react-rtl-utils
 
 [![npm version](https://img.shields.io/npm/v/react-rtl-utils.svg)](https://www.npmjs.com/package/react-rtl-utils)
+[![npm downloads](https://img.shields.io/npm/dm/react-rtl-utils.svg)](https://www.npmjs.com/package/react-rtl-utils)
 [![CI](https://github.com/ofershap/react-rtl-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/ofershap/react-rtl-utils/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> React utilities for RTL layouts — hooks and components for bidirectional text, RTL-aware positioning, and direction detection. Useful for Hebrew, Arabic, Persian, and Urdu apps.
+Hooks and components that make RTL layouts effortless — auto-detect text direction, flip styles, and handle bidi content in React.
+
+```tsx
+import { useTextDirection, BidiText } from "react-rtl-utils";
+
+const dir = useTextDirection("שלום עולם"); // "rtl"
+<BidiText>שלום עולם</BidiText>  // auto dir="rtl"
+<BidiText>Hello World</BidiText> // auto dir="ltr"
+```
+
+> For Hebrew, Arabic, Persian, and Urdu apps. Zero dependencies.
 
 ![Demo](assets/demo.gif)
 
