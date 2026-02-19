@@ -1,6 +1,6 @@
 {
   "name": "react-rtl-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React utilities for RTL layouts — hooks and components for bidirectional text, RTL-aware positioning, and direction detection",
   "type": "module",
   "main": "./dist/index.cjs",
